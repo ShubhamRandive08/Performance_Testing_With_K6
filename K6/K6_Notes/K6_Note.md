@@ -50,3 +50,11 @@ Performance testing is a type of software testing that evaluates how an applicat
 - **Lightweight and Efficient**: Uses a Go-based runtime, making it efficient in resource usage.<br>
 - **Built-in Metrics and Reports**: Provides real-time statistics and analytics for performance insights.<br>
 - **Cloud and Local Testing**: Supports both local and distributed cloud-based load testing.<br>
+
+Metric Type :<br>
+
+Metric     Type <br>
+Rate ---> rate <br>
+Counter ---> count  <br>
+Tread --> min, max, p(90), p(95) <br>
+Gorge ---> value <br>
