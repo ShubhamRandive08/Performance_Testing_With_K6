@@ -13,7 +13,7 @@ export const options =
         http_req_waiting : [ 'p(95) < 200'],
         http_reqs : ['count > 70', 'rate > 4'],
         vus : ['value>9'],
-        checks : ['rate>=0.90']
+        'checks{name : shubham}' : ['rate>=0.90']
     }
 }
 export default function(){
