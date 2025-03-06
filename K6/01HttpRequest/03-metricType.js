@@ -12,7 +12,6 @@ export const options = {
         http_reqs : ['count > 70', 'rate > 4'],
         vus : ['value > 10']
     }
-
 }
 
 export default function () {
