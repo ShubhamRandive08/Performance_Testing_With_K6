@@ -15,7 +15,7 @@ export const options = {
 }
 
 export default function () {
-    const res = http.get('https://test.k6.io')
+    const res = http.get('http://127.0.0.1:5502/collage_addmission_process_project/index.html')
     check(true , {
         'true is true': (value) => value === true
     })
