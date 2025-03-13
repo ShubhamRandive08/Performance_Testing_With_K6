@@ -1,0 +1,18 @@
+meta {
+  name: getTokan
+  type: http
+  seq: 3
+}
+
+post {
+  url: https://test-api.k6.io/auth/token/login/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username" : "{{username}}",
+    "password" : "test"
+  }
+}
