@@ -36,6 +36,4 @@ export default function () {
         'status is 200': (r) => r.status === 200,
         'has access token': (r) => r.json() !== undefined
     });
-    
-    // const accessToken = res.json().access;
 }

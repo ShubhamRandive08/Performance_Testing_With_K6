@@ -1,6 +1,4 @@
 import http from 'k6/http'
-import { check } from 'k6'
-
 export const options = {
     thresholds:{
         'checks{page:"home"}':['rate>0.90']
